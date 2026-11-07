@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "rngchallenge",
+  "version": "${version}",
+  "name": "RNG Challenge",
+  "description": "Персональные случайные испытания для Minecraft 1.21.1 Fabric.",
+  "authors": ["RNG Challenge"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.rngchallenge.RNGChallenge"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
